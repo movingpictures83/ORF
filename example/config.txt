@@ -1,0 +1,2 @@
+Prefix plugins/ORF/example
+Plugin ORF inputfile parameters.txt outputfile ORFs.fasta
