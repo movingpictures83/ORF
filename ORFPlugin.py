@@ -30,7 +30,7 @@ class ORFPlugin:
       for line in csvfile:
           contents = line.strip().split(',')
           readingFrame = int(contents[readingFrame_idx])
-          if (readingFrame >= 200):
+          if (readingFrame >= threshold):
              start = int(contents[start_idx])
              startspot = start - readingFrame + 1
              endspot = start-1
